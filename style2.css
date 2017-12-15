@@ -1,0 +1,218 @@
+body,html{
+    margin:5px;
+    padding:0;
+}
+
+#wrapper{
+    width:800px;
+    margin:auto;
+    background:white;   
+}
+
+section{
+    position:relative;
+}
+
+h3{
+    position:absolute;
+    top:0;
+    left:20px;
+    margin:0;
+}
+
+section>p, section>div, section>ul{
+    position:relative;
+    top:0;
+    margin-left:200px;
+    padding-left:20px;
+    border-left: 2px solid rgb(104, 103, 103);
+}
+
+#about h3 , h2{
+    display: none;
+}
+#about>p{
+    padding:5px;
+    margin:0px;
+    border-left:none;
+    color: gray;    
+    border-bottom: solid 100px white; 
+     
+}
+img {
+    float: right;
+    margin: -80px -27px 0 0;
+    transform: rotate(-8deg);
+}
+h1 {
+    border-bottom: solid 2px rgb(114, 107, 107) ; 
+}
+h4 {
+    color: #41808c;
+}
+.skill {
+    border: 1px solid black;
+    float: left;
+    background-color: rgb(2, 134, 128);
+    width:30%;
+    padding: 2px;
+    margin-bottom: 4px;
+    color: white;
+}
+.skills-primary {
+    font-size: x-large;
+}
+.skills-secondary{
+    font-size: small;
+}
+#competencies {
+    padding-bottom: 100px;    
+}
+
+.contacts::after{
+    display: table;
+    width:100%;
+    clear:both;
+    content: ' ';
+}
+
+.contact-value a{
+    background:rgb(255, 255, 255);
+    display:block;
+    float:left;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right:10px;
+    background-image: url('images/email.png');
+    background-size:cover;
+    color:transparent;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+#contact h3{
+    display: none;
+}
+
+
+.contact-skype .contact-value{
+    display:none;
+}
+
+.contact-type{
+    display:none;
+}
+
+body > ul{
+    display:none;
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    bottom: -111%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    width: 80px;
+    height: 80px;
+    background-color: #076e72;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+ul li a .fa {
+    position: relative;
+    transition: .5s;
+}
+ul li a .fa {
+    position: relative;
+    transition: .5s;
+}
+ul li a .fa {
+    position: relative;
+    transition: .5s;
+    z-index: 3;
+}
+ul li a:hover .fa {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+ul li a:hover:before{
+    top:0;
+
+}
+ul li:nth-child(1) a:before {
+     background-color: #0d1b38;
+}
+ul li:nth-child(2) a:before {
+    background-color: #55acee;
+}
+ul li:nth-child(3) a:before {
+    background-color: #eea755;
+}
+ul li:nth-child(4) a:before {
+    background-color: #ff3300;
+    background-image: url("images/email.png");
+}
+.contact-phone .contact-value a{
+    background:rgb(169, 182, 185);
+    display:block;
+    float:left;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right:10px;
+    background-image: url('images/phone.png');
+    background-size:cover;
+    color:transparent;
+}
+.contact-github .contact-value a{
+    background:rgb(4, 104, 134);
+    display:block;
+    float:left;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right:10px;
+    background-image: url('images/github.png');
+    background-size:cover;
+    color:transparent;
+}
+.contact-facebook .contact-value a{
+    background:rgb(4, 104, 134);
+    display:block;
+    float:left;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right:10px;
+    background-image: url('images/facebook.png');
+    background-size:cover;
+    color:transparent;
+}
+

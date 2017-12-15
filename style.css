@@ -1,0 +1,184 @@
+<<<<<<< HEAD
+
+    h1
+        {color: red }
+    h2	
+        {color: red }
+
+    #wrapper {
+    background: gray; 
+    padding: 1px;	
+
+    }
+
+    img {
+        display: block;
+    position: relative; 
+        margin: auto;
+    }
+
+    section {
+    width: 100%;
+    }
+    h3:before{
+    content: ' \25CF';
+    color:#FF0000;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+
+
+}
+
+    h4{
+    color:#FF0000;
+    }
+    figure { 
+        display: block;
+        margin-right: 800px;
+        position: relative;
+        top: -100px;
+    }
+
+    #contact{
+        display: block;
+        position: absolute;
+        top: 1px;
+        right:1px;
+        float: left;
+        line-height: 20px;
+    }
+.contact-value{
+    background-color: black;  
+    margin: 0;
+ color: red;
+    float: right;
+    width: 633px;
+
+
+}
+
+
+
+    dt {
+        float: left;
+        width: 18%;
+        border: 1px solid red ;
+        display: block;
+        clear: both; 
+        text-align: center;     
+        background-color:red; 
+        }
+
+    dd { 
+        display: block; 
+        float: left; 
+        margin-top: 20px; 
+    }
+    #contact h3 {
+        display: none;
+    }
+   
+
+
+@media screen and (min-width:600px){
+    section{
+        float: left;
+        width:49%;
+    }
+}
+=======
+body { 
+        background-color: rgb(255, 255, 255) 
+                                                }
+header {
+        background-color: gray
+        
+        
+        
+                                } 
+header h1 {
+                    color: red;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 40px
+                    
+                    
+                                    }
+header h2 {
+                    color: red;
+                    font-size: 30px;
+                    word-spacing: 10px;
+                    
+                                    }
+header figure {
+                position: absolute;
+                top: 30px;
+                right: 700px;
+                                        }
+header div 
+                {
+                    padding:30px
+                                     }   
+              
+section {
+      width: 49%;
+        float: left;
+                    }
+h3 {
+    text-decoration: underline;
+} 
+
+h3:before{
+    content: "⚫";
+    color: red;
+}
+
+#wrapper{
+    widows: px;
+    
+    background:orange;
+}
+.skill   {
+                background-color: rgb(163, 160, 160);                                      
+                padding: 10px;
+                margin:10px;  
+                                                        }
+ /*.skill span {background-color: red;
+               padding: 8px;  } */
+h4 {color: rgb(231, 62, 62);} 
+.experience-date span {color: rgb(187, 183, 183)}   
+.experience-details span {color: rgb(187, 183, 183)} 
+#contact {
+                display: block;
+                position: absolute;
+                right: 0px;
+                top: -38px;
+                                                    }
+.contact-type {
+    width: 135px;
+    float: left; 
+    background-color: red;
+    color: white;
+}
+.contact-value {
+                background-color: rgb(0, 0, 0);
+                width: 500px;
+                color: red;
+                                                                }
+                                                            
+[data-skill="5"] span {width: 50%; background-color: rgb(204, 42, 42); display: block; padding: 1px}
+[data-skill="3"] span {width: 30%; background-color: rgb(204, 42, 42); display: block;}
+[data-skill="7"] span {width: 70%; background-color: rgb(204, 42, 42); display: block;}
+[data-skill="9"] span {width: 90%; background-color: rgb(204, 42, 42); display: block;}
+[data-skill="1"] span {width: 10%; background-color: rgb(204, 42, 42); display: block;}
+
+
+
+.skill ection{
+    back5round-color: rgb(121, 116, 116);
+}                                  
+
+                                                  
+                                                        
+/* media queries */
+>>>>>>> 6a71827e50f3b29201b56121d052fb6848b966db
